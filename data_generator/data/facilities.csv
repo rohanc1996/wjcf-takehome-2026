@@ -1,0 +1,179 @@
+hospital_id,hospital_name,district_id,state_id,facility_type,empanelment_status,activity_status,bed_count,lat,lon
+1,"Choudhury, Bakshi and Maharaj Hospital",1,1,private,empanelled,active,142,21.167,78.252
+2,Kapoor and Sons Hospital,1,1,public,empanelled,active,349,21.2072,78.2947
+3,"Chaudry, Chahal and Sami Hospital",1,1,private,empanelled,active,108,21.2386,78.3488
+4,Balan Inc Hospital,1,1,public,de-empanelled,active,203,21.2177,78.3417
+5,Kaul PLC Hospital,1,1,private,empanelled,active,70,21.2462,78.2821
+6,"Bala, Issac and Saini Hospital",1,1,public,empanelled,dormant,358,21.2484,78.2995
+7,Sen PLC Hospital,1,1,public,empanelled,active,236,21.2351,78.2692
+8,Ahuja-Dutta Hospital,1,1,public,empanelled,active,300,21.1819,78.2667
+9,"Sami, Oak and Mall Hospital",1,1,public,empanelled,active,271,21.1838,78.2773
+10,Kale LLC Hospital,1,1,public,empanelled,active,220,21.2051,78.2631
+11,Chanda Group Hospital,1,1,public,empanelled,active,59,21.1803,78.27
+12,Parmer LLC Hospital,1,1,public,empanelled,active,188,21.2197,78.2836
+13,"Lalla, Bassi and Sharaf Hospital",1,1,public,empanelled,active,258,21.2207,78.2632
+14,"Dash, Radhakrishnan and Brar Hospital",2,1,private,empanelled,active,135,21.4419,78.5585
+15,"Memon, Pathak and Handa Hospital",2,1,public,empanelled,active,108,21.3523,78.5629
+16,"Boase, Bath and Kari Hospital",2,1,public,empanelled,active,83,21.3654,78.6301
+17,Buch-Kaul Hospital,2,1,public,empanelled,dormant,56,21.4237,78.5841
+18,Rai LLC Hospital,2,1,public,de-empanelled,active,496,21.4469,78.6131
+19,Patla-Gaba Hospital,2,1,private,empanelled,active,34,21.4204,78.57
+20,Pant-Kadakia Hospital,2,1,public,de-empanelled,dormant,96,21.3504,78.6292
+21,"Loke, Bora and Garg Hospital",2,1,private,de-empanelled,dormant,102,21.4125,78.5693
+22,"Konda, Gade and Shere Hospital",2,1,public,empanelled,active,411,21.3686,78.5788
+23,Madan-Kanda Hospital,2,1,public,empanelled,dormant,144,21.4008,78.558
+24,"Nair, Bhalla and Karnik Hospital",2,1,public,empanelled,active,344,21.4473,78.62
+25,Mutti Group Hospital,3,1,public,de-empanelled,dormant,478,21.6092,78.9102
+26,Bhatti-Kakar Hospital,3,1,public,empanelled,active,426,21.5741,78.8507
+27,"Murty, Kala and Tata Hospital",3,1,public,de-empanelled,dormant,81,21.5563,78.8844
+28,Shanker-Dhar Hospital,3,1,public,de-empanelled,dormant,441,21.6399,78.8946
+29,Dewan-Koshy Hospital,4,1,public,empanelled,active,360,21.8178,79.1566
+30,"Yohannan, Lall and Sangha Hospital",4,1,private,empanelled,active,142,21.787,79.18
+31,"Rastogi, Pathak and Kanda Hospital",4,1,public,empanelled,active,166,21.8087,79.1543
+32,Upadhyay Group Hospital,4,1,private,empanelled,active,123,21.7964,79.2399
+33,Batta Inc Hospital,4,1,public,de-empanelled,active,264,21.845,79.2373
+34,Dutta Ltd Hospital,4,1,public,empanelled,active,126,21.7899,79.1514
+35,Bhatt-Rajan Hospital,4,1,public,empanelled,active,353,21.8446,79.1717
+36,Sidhu-Wadhwa Hospital,5,1,private,empanelled,dormant,120,21.9658,78.033
+37,Apte-Contractor Hospital,5,1,public,empanelled,active,360,22.0224,77.9933
+38,"Yadav, Loke and Oak Hospital",5,1,public,empanelled,active,80,21.9853,77.9606
+39,Memon Group Hospital,5,1,public,empanelled,active,122,21.9735,78.0443
+40,Setty Inc Hospital,5,1,public,empanelled,dormant,207,22.0132,77.9839
+41,"Lall, Tella and Gokhale Hospital",5,1,private,empanelled,active,173,21.9629,77.9782
+42,"Cherian, Misra and Tripathi Hospital",6,2,public,empanelled,active,82,22.1518,78.287
+43,"Issac, Dua and Prakash Hospital",6,2,private,empanelled,active,100,22.2134,78.3402
+44,Zacharia PLC Hospital,6,2,private,empanelled,active,104,22.2198,78.3402
+45,Naik Group Hospital,6,2,public,empanelled,active,167,22.2208,78.3109
+46,Choudhury LLC Hospital,6,2,public,empanelled,active,59,22.1813,78.3381
+47,Khatri-Bhardwaj Hospital,6,2,private,de-empanelled,active,155,22.1991,78.3103
+48,Brar Inc Hospital,6,2,public,empanelled,active,280,22.189,78.2693
+49,"Sunder, Biswas and Walia Hospital",6,2,public,empanelled,active,448,22.1559,78.2747
+50,Dave Ltd Hospital,6,2,private,empanelled,active,143,22.2062,78.3284
+51,Gandhi-Lanka Hospital,6,2,public,empanelled,active,324,22.17,78.3311
+52,"Sampath, Kakar and Zacharia Hospital",6,2,private,empanelled,active,95,22.2233,78.3235
+53,"Iyer, Muni and Rastogi Hospital",7,2,private,empanelled,active,199,22.4319,78.5511
+54,"Prakash, Sarma and Varughese Hospital",7,2,private,de-empanelled,dormant,186,22.4144,78.5921
+55,Dara-Kota Hospital,7,2,private,empanelled,active,134,22.4126,78.6055
+56,Bhatt LLC Hospital,7,2,public,empanelled,dormant,190,22.3956,78.5698
+57,Karpe PLC Hospital,7,2,public,empanelled,active,215,22.4456,78.5624
+58,Amble Inc Hospital,7,2,public,empanelled,active,211,22.4332,78.5875
+59,"Bhargava, Karnik and Bir Hospital",7,2,private,empanelled,active,65,22.3827,78.6336
+60,Narayanan Inc Hospital,7,2,private,empanelled,active,165,22.3539,78.6012
+61,"Khanna, Mallick and Sunder Hospital",7,2,public,empanelled,active,84,22.364,78.5602
+62,Zacharia and Sons Hospital,8,2,private,empanelled,active,106,22.5581,78.8844
+63,"Solanki, Kibe and Solanki Hospital",8,2,private,empanelled,dormant,126,22.6142,78.8896
+64,Gupta-Chandra Hospital,8,2,private,empanelled,active,134,22.5659,78.9263
+65,Sankar LLC Hospital,8,2,public,empanelled,dormant,399,22.6058,78.8552
+66,Roy-Sibal Hospital,8,2,public,empanelled,dormant,162,22.6259,78.945
+67,"Bhagat, Chaudhari and Bhat Hospital",8,2,public,de-empanelled,active,248,22.6256,78.917
+68,Nori-Chopra Hospital,8,2,private,empanelled,active,191,22.6215,78.8915
+69,Handa and Sons Hospital,8,2,private,empanelled,dormant,78,22.6083,78.8507
+70,"Sen, Dey and Sami Hospital",9,2,private,empanelled,active,74,22.7652,79.1507
+71,Mallick Group Hospital,9,2,public,empanelled,active,241,22.8011,79.166
+72,Borra Group Hospital,9,2,private,empanelled,active,103,22.8398,79.1893
+73,"Chaudhari, Bedi and Zachariah Hospital",9,2,public,empanelled,active,383,22.8172,79.227
+74,Chander and Sons Hospital,9,2,private,de-empanelled,active,47,22.8243,79.2374
+75,Ray Group Hospital,9,2,private,empanelled,active,196,22.8174,79.2387
+76,Kala-Rattan Hospital,9,2,public,empanelled,dormant,370,22.773,79.239
+77,Gala Group Hospital,10,2,private,de-empanelled,active,105,22.9706,78.0447
+78,Ramakrishnan LLC Hospital,10,2,public,empanelled,active,358,23.0254,78.0421
+79,Mangal-Sampath Hospital,10,2,public,empanelled,active,391,23.0357,77.9749
+80,"Sur, Dubey and Gupta Hospital",10,2,public,empanelled,active,367,22.955,77.9511
+81,Kalla-Bhardwaj Hospital,10,2,private,de-empanelled,active,165,23.0461,77.9597
+82,"Bhat, Murthy and Bhandari Hospital",10,2,public,empanelled,active,429,23.0376,77.9576
+83,Sood PLC Hospital,10,2,public,de-empanelled,active,111,22.9802,77.9763
+84,"Dugar, Bhandari and Trivedi Hospital",10,2,public,empanelled,active,154,22.962,78.0137
+85,Grewal Inc Hospital,10,2,public,empanelled,active,293,22.9675,77.9613
+86,"Bir, Keer and Raval Hospital",10,2,public,empanelled,active,405,23.0057,77.977
+87,Koshy PLC Hospital,11,3,public,de-empanelled,dormant,69,23.1997,78.333
+88,"Baral, Bumb and Saini Hospital",11,3,public,de-empanelled,dormant,82,23.2459,78.3376
+89,"Virk, Mutti and Lal Hospital",11,3,public,de-empanelled,dormant,393,23.1772,78.3372
+90,Murthy and Sons Hospital,11,3,private,empanelled,dormant,164,23.2335,78.2935
+91,Randhawa-Deep Hospital,12,3,public,empanelled,active,95,23.4098,78.5956
+92,"Mital, Shankar and Mutti Hospital",12,3,private,empanelled,active,115,23.4226,78.6041
+93,Andra Group Hospital,12,3,private,empanelled,active,168,23.3902,78.5967
+94,"Chaudhry, Borah and Yogi Hospital",12,3,private,empanelled,active,146,23.4176,78.5908
+95,Toor LLC Hospital,12,3,public,de-empanelled,active,120,23.3833,78.5859
+96,Palla Inc Hospital,12,3,private,empanelled,active,62,23.439,78.5843
+97,Pingle LLC Hospital,12,3,public,empanelled,active,224,23.404,78.6332
+98,Sarma PLC Hospital,12,3,private,empanelled,active,72,23.4325,78.5896
+99,"Mittal, Wadhwa and Anand Hospital",12,3,public,empanelled,active,328,23.3542,78.5604
+100,"Mistry, Chawla and Desai Hospital",12,3,private,empanelled,active,62,23.424,78.6184
+101,D’Alia-Chhabra Hospital,12,3,public,empanelled,active,478,23.4297,78.6048
+102,"Dugal, Magar and Manda Hospital",12,3,private,empanelled,active,167,23.3851,78.5908
+103,"Kade, Oza and Jani Hospital",12,3,public,de-empanelled,active,282,23.3656,78.6194
+104,"Lalla, Tiwari and Suresh Hospital",13,3,public,empanelled,active,303,23.5644,78.8572
+105,Behl-Chanda Hospital,13,3,public,empanelled,active,472,23.5709,78.9138
+106,"Sampath, Malhotra and Basu Hospital",13,3,public,empanelled,dormant,201,23.5621,78.8686
+107,Nath and Sons Hospital,13,3,public,de-empanelled,active,110,23.5922,78.8858
+108,"Lala, Edwin and Sathe Hospital",13,3,private,empanelled,active,119,23.5875,78.8804
+109,"Sane, Andra and Choudhury Hospital",13,3,private,empanelled,active,171,23.5542,78.8991
+110,Dixit PLC Hospital,13,3,private,empanelled,dormant,199,23.5974,78.9298
+111,Pingle PLC Hospital,13,3,public,empanelled,active,350,23.612,78.8851
+112,"Divan, Sani and Datta Hospital",13,3,public,empanelled,dormant,69,23.6463,78.9259
+113,Morar LLC Hospital,14,3,public,de-empanelled,active,416,23.8131,79.1594
+114,Parmar and Sons Hospital,14,3,private,empanelled,active,140,23.7534,79.181
+115,"Krish, Chauhan and Pandya Hospital",14,3,public,empanelled,active,260,23.7595,79.2184
+116,"Ray, Dubey and Khalsa Hospital",14,3,public,empanelled,dormant,309,23.7944,79.2002
+117,Goel Group Hospital,14,3,private,empanelled,active,157,23.8154,79.1549
+118,Gola Ltd Hospital,14,3,public,empanelled,active,281,23.7793,79.1663
+119,Sabharwal-Kothari Hospital,14,3,private,empanelled,dormant,59,23.8469,79.1577
+120,Dutta-Chokshi Hospital,15,3,private,empanelled,active,65,24.0272,77.9544
+121,Barad-Singhal Hospital,15,3,private,empanelled,active,146,23.9729,77.9945
+122,Iyengar Group Hospital,15,3,public,empanelled,dormant,121,23.9632,78.0479
+123,Mody-Kari Hospital,15,3,public,de-empanelled,active,456,24.0199,77.9521
+124,Bajwa Ltd Hospital,15,3,public,empanelled,active,104,23.9919,77.9534
+125,Rastogi LLC Hospital,15,3,private,empanelled,dormant,42,23.9763,78.0449
+126,Boase-Mallick Hospital,15,3,private,empanelled,active,55,23.9621,77.9662
+127,Upadhyay-Ratta Hospital,15,3,public,empanelled,active,329,23.9873,77.9763
+128,"Yadav, Narula and Bala Hospital",15,3,private,empanelled,active,125,23.9616,77.954
+129,Lal and Sons Hospital,15,3,private,empanelled,active,120,23.9511,77.956
+130,"Lanka, Barad and Chopra Hospital",15,3,public,de-empanelled,active,349,24.0031,77.9803
+131,"Saraf, Pai and Murthy Hospital",15,3,public,empanelled,active,295,24.0301,77.9689
+132,Vaidya-D’Alia Hospital,15,3,private,empanelled,dormant,119,24.0053,78.0127
+133,Gupta-Kumar Hospital,16,4,private,empanelled,active,37,24.1978,78.349
+134,Sarin Inc Hospital,16,4,private,empanelled,active,125,24.234,78.2862
+135,"Yohannan, Hegde and Patla Hospital",16,4,private,empanelled,dormant,130,24.1543,78.282
+136,Boase-Narayanan Hospital,16,4,public,empanelled,active,241,24.1891,78.3106
+137,"Murthy, Dash and Mital Hospital",16,4,public,empanelled,active,364,24.2449,78.301
+138,"More, Rege and Narain Hospital",16,4,public,empanelled,active,173,24.2099,78.2788
+139,Merchant-Datta Hospital,16,4,public,empanelled,dormant,83,24.2062,78.3204
+140,Salvi Ltd Hospital,17,4,private,empanelled,active,107,24.3803,78.6035
+141,Ghosh-Mitra Hospital,17,4,private,empanelled,active,118,24.4257,78.634
+142,Acharya-Modi Hospital,17,4,private,empanelled,active,166,24.3637,78.5837
+143,Kade-Sani Hospital,17,4,public,empanelled,active,82,24.3752,78.5768
+144,"Nagy, Shroff and Sathe Hospital",18,4,private,empanelled,active,102,24.6407,78.9066
+145,Kala-Vaidya Hospital,18,4,private,empanelled,active,152,24.6176,78.8779
+146,Gara-Chad Hospital,18,4,private,empanelled,active,176,24.6391,78.8639
+147,Varma-Nayak Hospital,18,4,public,empanelled,active,235,24.6213,78.9053
+148,Keer Ltd Hospital,18,4,private,empanelled,active,50,24.6225,78.9376
+149,Kar-Issac Hospital,18,4,private,empanelled,active,106,24.5683,78.9147
+150,Bakshi Inc Hospital,18,4,private,empanelled,active,89,24.6432,78.8959
+151,Soman PLC Hospital,18,4,private,empanelled,dormant,51,24.6467,78.9313
+152,Shah Group Hospital,18,4,public,de-empanelled,active,180,24.6428,78.8955
+153,"Hayer, Rajagopalan and Talwar Hospital",18,4,public,empanelled,active,340,24.592,78.8766
+154,Kohli-Divan Hospital,19,4,private,de-empanelled,active,100,24.7619,79.1681
+155,"Ahluwalia, Chhabra and Sandal Hospital",19,4,private,empanelled,dormant,37,24.7777,79.2048
+156,Goda Ltd Hospital,19,4,private,empanelled,active,195,24.7923,79.154
+157,"Shetty, Bedi and Krish Hospital",19,4,public,de-empanelled,dormant,369,24.822,79.1784
+158,Shan and Sons Hospital,19,4,private,empanelled,active,88,24.8428,79.1854
+159,Wali-Nadig Hospital,19,4,private,de-empanelled,active,76,24.7672,79.2466
+160,Thaman-Sandhu Hospital,19,4,private,empanelled,dormant,61,24.7591,79.224
+161,"Sehgal, Dutt and Soman Hospital",19,4,public,empanelled,active,98,24.7746,79.1906
+162,Lad-Kota Hospital,19,4,private,empanelled,active,76,24.7779,79.1503
+163,"Malhotra, Verma and Sundaram Hospital",19,4,public,empanelled,active,484,24.7887,79.1713
+164,"Khare, Maharaj and Sarraf Hospital",19,4,private,de-empanelled,active,133,24.765,79.2388
+165,Mangal and Sons Hospital,19,4,public,empanelled,dormant,441,24.7772,79.2382
+166,Nayak-Nagarajan Hospital,20,4,public,empanelled,dormant,309,25.0116,78.0338
+167,"Buch, Devi and Dora Hospital",20,4,public,empanelled,active,357,25.0337,78.0183
+168,Rajagopal Ltd Hospital,20,4,private,empanelled,active,110,24.9905,77.9749
+169,Kala Inc Hospital,20,4,private,empanelled,active,140,25.0461,78.0186
+170,Reddy-Narayanan Hospital,20,4,public,empanelled,dormant,415,25.03,77.9889
+171,"Shukla, Sagar and Bhatia Hospital",20,4,private,empanelled,active,134,25.0409,77.9589
+172,Salvi Group Hospital,20,4,private,empanelled,active,86,24.9979,77.9669
+173,"Bahri, Rai and Sood Hospital",20,4,public,empanelled,active,464,24.9696,77.9536
+174,Pandey LLC Hospital,20,4,private,de-empanelled,active,60,24.9592,78.0195
+175,Saini-Yohannan Hospital,20,4,private,de-empanelled,active,135,24.9649,77.9642
+176,"Kannan, Sura and Kanda Hospital",20,4,private,empanelled,active,124,24.9812,78.0021
+177,Sarin-Sunder Hospital,20,4,private,de-empanelled,dormant,187,25.0283,78.0372
+178,Ramachandran LLC Hospital,20,4,public,empanelled,active,290,25.0442,78.0395
