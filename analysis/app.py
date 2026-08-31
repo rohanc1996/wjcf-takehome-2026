@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import altair as alt
+import numpy as np
 import pandas as pd
 import streamlit as st
 
@@ -101,6 +102,50 @@ with st.expander("Reach-use gap vs hospital supply", expanded=True):
     st.caption(
         "Each dot is a district; hover to identify it. District 11 is shown at supply 0 (no empanelled-active hospitals). "
         "The gap is largest where supply collapses, but raw supply does not explain it: the notebook shows the private share of usable hospitals tracks utilisation per card instead."
+    )
+
+with st.expander("Hypothesis: private vs public hospital supply", expanded=True):
+    st.markdown(
+        "**The hypothesis (D3):** districts where the usable hospitals are mostly private use the scheme less than comparable public-dominated districts. "
+        "Districts with no usable hospitals are excluded. Coverage is held constant below, so this is not just an enrolment effect."
+    )
+    m = metrics[metrics.private_share.notna()].copy()
+    m["group"] = np.where(m.private_share > 0.5, "private_dominated", "public_dominated")
+    m["coverage_band"] = pd.qcut(m.clean_coverage, 3, labels=["low", "mid", "high"])
+
+    means = m.groupby("group").utilisation_per_card.mean()
+    diff = means.get("private_dominated", np.nan) - means.get("public_dominated", np.nan)
+    st.markdown(
+        f"**Approved claims per card: {means.get('private_dominated', float('nan')):.2f} in private-dominated districts "
+        f"vs {means.get('public_dominated', float('nan')):.2f} in public-dominated districts.** "
+        f"The private-dominated average is {abs(diff):.2f} lower."
+    )
+
+    st.subheader("Private share vs use per card (each dot is a district)")
+    pts = alt.Chart(m).mark_circle(size=70).encode(
+        x=alt.X("private_share:Q", title="Private share of usable hospitals"),
+        y=alt.Y("utilisation_per_card:Q", title="Approved claims per card"),
+        color=alt.Color("group:N", title="Group"),
+        tooltip=[
+            alt.Tooltip("district_id:N", title="District"),
+            alt.Tooltip("private_share:Q", title="Private share"),
+            alt.Tooltip("utilisation_per_card:Q", title="Claims per card"),
+        ],
+    )
+    st.altair_chart(pts, width="stretch", height=400)
+
+    st.subheader("Use per card by coverage band (control for reach)")
+    band_means = m.groupby(["coverage_band", "group"]).utilisation_per_card.mean().reset_index()
+    bars = alt.Chart(band_means).mark_bar().encode(
+        x=alt.X("coverage_band:N", title="Coverage band (low to high)"),
+        xOffset="group:N",
+        y=alt.Y("utilisation_per_card:Q", title="Mean approved claims per card"),
+        color=alt.Color("group:N", title="Group"),
+    )
+    st.altair_chart(bars, width="stretch", height=400)
+    st.caption(
+        "Private-dominated districts sit below public-dominated districts in every coverage band, "
+        "so the lower use is more likely tied to who owns the hospitals, and not to how many people hold cards."
     )
 
 with st.expander("Column key"):

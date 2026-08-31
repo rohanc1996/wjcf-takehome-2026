@@ -57,4 +57,5 @@ A ranked shortlist of districts where many people hold cards but few hospitalisa
 
 ## Scattered thoughts, maybe I place these somewhere later
 - The PDF mentions the family and family_id as significant for claims, but I can't think of where or how this could meaningfully factor into my analysis right now.
-- 
+- I want to include the data-generator script in the run-all pipeline, but if the next user changes the seed, the data will change so any hard-coded findings I report in my notebook or wherever else will mismatch. I should flag this in the readme, or not have any hard-coded findings anywhere.
+- I don't need to worry about PIIs and privacy here much since it's synthetic data with numerical ids for names and families, but I should make notes of what the correct protocol would be if I was working with PIIs (anonymization, aggregation, minimum-cell-size suppression etc). I should probably also mention specific things about the DPDP or SAHI wherever relevant for brownie points.

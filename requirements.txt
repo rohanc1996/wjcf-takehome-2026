@@ -1,7 +1,6 @@
 faker
 pandas
 numpy
-matplotlib
 streamlit
 ipykernel
 nbformat
